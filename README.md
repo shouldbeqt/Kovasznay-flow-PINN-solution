@@ -3,6 +3,8 @@
 I consider two models: first predict solution in range x = [0,1], y = [0,1], second: x = [-0.5,1], y = [-0.5,1.5]
 I compare solution with analytics soltuion, which you can find in another repositories
 
+**All models, solution, metrics can find in folder**
+
 Example first model:
 PINN:
 
@@ -22,3 +24,20 @@ Or metric compare:
 
 ![image](https://github.com/user-attachments/assets/f8e8e122-7fc6-4f28-9ab9-7fa718756bba)
 
+Example second model:
+
+PINN:
+
+![image](https://github.com/user-attachments/assets/93759543-1ca2-4626-8ce4-1cb83b466106)
+
+Analytics:
+
+![image](https://github.com/user-attachments/assets/601e7045-e41d-4583-998f-e3475d19b262)
+
+Or metric compare:
+1) Model which has learining on range x = [-0.5,1], y = [-0.5,1.5] with pressure in inflow condition
+2) Model which has learining on range x = [-0.5,1], y = [-0.5,1.5] with increase lerning on initial condition
+3) Default model (model without pressure in inflow condition)
+4) Model with more collaction point
+5) 
+![image](https://github.com/user-attachments/assets/cab24057-379f-4c51-a683-6fa9a36a363b)
