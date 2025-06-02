@@ -39,5 +39,5 @@ Or metric compare:
 2) Model which has learining on range x = [-0.5,1], y = [-0.5,1.5] with increase lerning on initial condition
 3) Default model (model without pressure in inflow condition)
 4) Model with more collaction point
-5) 
+
 ![image](https://github.com/user-attachments/assets/cab24057-379f-4c51-a683-6fa9a36a363b)
